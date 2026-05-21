@@ -1,0 +1,53 @@
+Body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(241, 174, 115);
+    margin: 0;
+    padding: 0;
+}
+.card {
+    width: 900px;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    transition:  0.3s ;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.Preparation-time {
+    margin-bottom: 10px;;
+    background-color: rgb(243, 236, 226);
+    height: 220px;
+}
+.Preparation-time h2{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(53, 30, 1);
+}
+h2{
+    color: rgb(73, 42, 1);
+}
+.Instructions {
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(243, 236, 226);
+    height: 500px;
+    width: 100%;
+}
+.Nutrition table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.Nutrition table tr, .Nutrition table td {
+    border-bottom: 1px solid grey;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+    margin: 50px;
+    
+}
